@@ -1,0 +1,33 @@
+{
+  "name": "assignement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.ts",
+  "scripts": {
+    "start": "nodemon ./src/app.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armaansharma786/General.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armaansharma786/General/issues"
+  },
+  "homepage": "https://github.com/armaansharma786/General#readme",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.18",
+    "axios": "^0.26.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/supertest": "^2.0.11",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2",
+    "ts-jest": "^27.1.3"
+  }
+}
